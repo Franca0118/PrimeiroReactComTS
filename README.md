@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-Ficou bem basico, gostei desse projeto por que usei class no ts pela primeira vez, e ainda fiz uma paginazinha
+Ficou bem basico, gostei desse projeto por que usei class no ts pela primeira vez, e fiz uma paginazinha
 
 
 
