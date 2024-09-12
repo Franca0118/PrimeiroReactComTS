@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+      }
+
+      div{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+        gap: 10px;
+        height: 50vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+
+      div span{
+        width: 30vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+      }
+      body{
+        
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(129deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 14%, rgba(0,212,255,1) 100%);  
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+      label{
+        font-size: 15px;
+      }
+      div section
+      {
+        border: 1px solid black;
+        display: flex;
+        width: 50vw;
+        justify-content: space-around;
+      }
+
+      input {
+        width: 20vw;
+        color: black;
+        height: 4vh;
+        font-size: 3vh;
+
+      }
+
+      button{
+        width: 20vw;
+        min-height: 4vw;
+        color: black;
+        border-radius: 10px;
+        background: white;
+        transition: .2s;
+        margin-bottom: 2vh;
+      }
+      button:hover{
+        color: white;
+        background: black;
+      }
+
+      input:focus{
+        outline: none;
+      }
+    </style>
+  </body>
+</html>
